@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" media="screen" href="form2.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+
+            <div class="card-header">
+                <h1>IPL Player</h1>
+            </div>
+
+            <div class="card-content">
+                <form class="form" action="#" method="post">
+                    <div class="heading">
+                        <h1>Basic Info</h1>
+                    </div>
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phoneNumber">Phone Number</label>
+                        <input type="tel" id="phoneNumber" placeholder="Phone Number" size="10" minlength="10" maxlength="10" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" placeholder="Age" min="1" max="100" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="confirm_password">Confirm Password</label>    
+                        <input type="password" id="confirm_password" placeholder="Confirm-Password" required>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="button" type="submit" id="submit_button">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
